@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 
-int fact(int x){
-    int product = 1;
+long long fact(int x){
+    long long product = 1;
     for(int i=1;i<=x;i++){
         product*=i;
     }
